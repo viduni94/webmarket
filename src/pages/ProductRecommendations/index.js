@@ -2,6 +2,8 @@ import { memo, useState } from 'react';
 import NavBar from 'components/NavBar';
 import UseCaseList from 'components/UseCaseList';
 import { useCases } from './data';
+import GraphFive from './graphs/graphFive';
+import GraphFour from './graphs/graphFour';
 import GraphOne from './graphs/graphOne';
 import GraphThree from './graphs/graphThree';
 import GraphTwo from './graphs/graphTwo';
@@ -112,6 +114,41 @@ const ProductRecommendations = () => {
                   promote to our customers. We have identified that the Sri Lankan buyers are more
                   eager to purchase when there is an offer. Therefore, this analysis is important
                   for sales growth of WebMarket.
+                </p>
+              </div>
+            ) : (
+              ''
+            )}
+            {graphFour ? (
+              <div style={{ width: '100%', height: '80%' }}>
+                <GraphFour />
+                <p style={{ marginTop: '2rem', textAlign: 'center', lineHeight: '1.5' }}>
+                  The analysis of average rating for products help us identify the best selling
+                  products based on customer satisfaction.
+                </p>
+                <p style={{ marginTop: '1rem', textAlign: 'center', lineHeight: '1.5' }}>
+                  We use this analysis to conduct direct product advertising and recommendations to
+                  users. We have identified that there are a large number of products on Amazon
+                  which has an average rating of 5, which proves the quality of products sold on
+                  Amazon. Since we are source Amazon products to Sri Lanka, this metric is really
+                  important for customer attraction for WebMarket too.
+                </p>
+              </div>
+            ) : (
+              ''
+            )}
+            {graphFive ? (
+              <div style={{ width: '100%', height: '80%' }}>
+                <GraphFive />
+                <p style={{ marginTop: '2rem', textAlign: 'center', lineHeight: '1.5' }}>
+                  The analysis of length of review vs helpful tags count showcases the importance of
+                  a detailed review of a product for potential customers..
+                </p>
+                <p style={{ marginTop: '1rem', textAlign: 'center', lineHeight: '1.5' }}>
+                  With this insight, we recommend quality products to our customers and once they
+                  purchase it, we advise them to leave their valuable feedback about the product
+                  too. This has helped our analysis on products as we can make our recommendations
+                  better based on user feedback we get.
                 </p>
               </div>
             ) : (
