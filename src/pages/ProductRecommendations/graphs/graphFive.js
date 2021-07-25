@@ -11,9 +11,15 @@ import {
 } from 'recharts';
 import { graphFiveData } from '../data';
 
-const data = graphFiveData.sort((a, b) =>
-  a.length_of_review > b.length_of_review ? 1 : (b.length_of_review > a.length_of_review ? -1 : 0),
-);
+const data = graphFiveData.sort((a, b) => {
+  if (a.length_of_review > b.length_of_review) {
+    return 1;
+  }
+  if (b.length_of_review > a.length_of_review) {
+    return -1;
+  }
+  return 0;
+});
 
 // Distribution of Length of Reviews vs Helpful Count
 const GraphFive = () => {

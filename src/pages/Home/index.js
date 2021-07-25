@@ -1,4 +1,5 @@
 import { memo } from 'react';
+import { Link } from 'react-router-dom';
 import cx from 'classnames';
 import ReactLogo from 'components/ReactLogo';
 import constants from 'utils/constants';
@@ -20,7 +21,7 @@ const Home = () => {
           </a>
           {messages.mainPage.moreInfo}
         </p>
-        <a href="/product-recommendations">Product Recommendations</a>
+        <Link to="/product-recommendations">Product Recommendations</Link>
       </div>
     </>
   );
