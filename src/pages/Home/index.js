@@ -9,7 +9,7 @@ import styles from './home.module.scss';
 const Home = () => {
   return (
     <>
-      <div className={cx(pageStyles.container, styles.main) /* Example of class combining */}>
+      <div className={cx(pageStyles.container, styles.main)}>
         <ReactLogo />
         <h2>{messages.common.title}</h2>
         <p>{messages.mainPage.getStarted}</p>
