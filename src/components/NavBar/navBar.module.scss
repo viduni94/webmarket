@@ -9,3 +9,13 @@
 .logo {
   width: 10rem;
 }
+
+.navLink {
+  color: rgb(126, 126, 126);
+  margin-left: 2rem;
+  text-decoration: none;
+
+  &:hover {
+    color: black;
+  }
+}

@@ -1,9 +1,7 @@
 import { memo } from 'react';
 import { Link } from 'react-router-dom';
 import cx from 'classnames';
-import ReactLogo from 'components/ReactLogo';
-import constants from 'utils/constants';
-import messages from 'utils/messages';
+import logoLarge from 'assets/images/logo-large.png';
 import pageStyles from 'pages/pages.module.scss';
 import styles from './home.module.scss';
 
@@ -11,17 +9,36 @@ const Home = () => {
   return (
     <>
       <div className={cx(pageStyles.container, styles.main)}>
-        <ReactLogo />
-        <h2>{messages.common.title}</h2>
-        <p>{messages.mainPage.getStarted}</p>
-        <p>
-          {messages.mainPage.visitThe}
-          <a target="_blank" rel="noreferrer" href={constants.links.readme}>
-            {messages.mainPage.readme}
-          </a>
-          {messages.mainPage.moreInfo}
-        </p>
-        <Link to="/product-recommendations">Product Recommendations</Link>
+        <div className={styles.textContainer}>
+          <h2>Hey There!</h2>
+          <h3>We Are</h3>
+          <img style={{ width: '300px', height: '190px' }} src={logoLarge} alt="logo-large" />
+          <p className={styles.tag}>
+            We facilitate buying and delivering
+            <br /> Amazon products for Sri Lanka
+          </p>
+          <div className={styles.linksList}>
+            <p>
+              <b>Check Out Our Big Data Analysis on Amazon Products</b>
+            </p>
+            <p>
+              (We use a daily running script to obtain data
+              <br /> to our main application)
+            </p>
+            <br />
+            <br />
+            <br />
+            <Link to="/product-recommendations">Product Recommendations</Link>
+            <br />
+            <br />
+            <br />
+            <Link to="/trend-analysis">Trend Analysis</Link>
+            <br />
+            <br />
+            <br />
+            <Link to="/price-analysis">Price Analysis</Link>
+          </div>
+        </div>
       </div>
     </>
   );

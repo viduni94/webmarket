@@ -1,6 +1,45 @@
 .main {
   padding-top: 3rem;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
+  background-image: url("background.jpg");
+}
+
+.textContainer {
+  width: 40%;
   text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+.tag {
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+.linksList {
+  margin-top: 6rem;
+}
+
+a {
+  color: rgb(106, 106, 106) !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+
+  &:hover {
+    color: black !important;
+  }
 }
