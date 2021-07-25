@@ -141,13 +141,14 @@ const ProductRecommendations = () => {
               <div style={{ width: '100%', height: '80%' }}>
                 <GraphFive />
                 <p style={{ marginTop: '2rem', textAlign: 'center', lineHeight: '1.5' }}>
-                  The analysis of length of review vs helpful tags count showcases the importance
-                  of a detailed review of a product for potential customers..
+                  The analysis of length of review vs helpful tags count showcases the importance of
+                  a detailed review of a product for potential customers..
                 </p>
                 <p style={{ marginTop: '1rem', textAlign: 'center', lineHeight: '1.5' }}>
-                  With this insight, we recommend quality products to our customers and once they purchase it,
-                  we advise them to leave their valuable feedback about the product too. This has helped our
-                  analysis on products as we can make our recommendations better based on user feedback we get.
+                  With this insight, we recommend quality products to our customers and once they
+                  purchase it, we advise them to leave their valuable feedback about the product
+                  too. This has helped our analysis on products as we can make our recommendations
+                  better based on user feedback we get.
                 </p>
               </div>
             ) : (
