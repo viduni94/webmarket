@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import {
   LineChart,
   Line,
@@ -10,8 +11,9 @@ import {
 } from 'recharts';
 import { graphFiveData } from '../data';
 
-const data = graphFiveData.sort((a, b) => (a.length_of_review > b.length_of_review)
-  ? 1 : ((b.length_of_review > a.length_of_review) ? -1 : 0));
+const data = graphFiveData.sort((a, b) =>
+  a.length_of_review > b.length_of_review ? 1 : (b.length_of_review > a.length_of_review ? -1 : 0),
+);
 
 // Distribution of Length of Reviews vs Helpful Count
 const GraphFive = () => {
@@ -20,7 +22,7 @@ const GraphFive = () => {
       <LineChart
         width={500}
         height={300}
-        data={graphFiveData}
+        data={data}
         margin={{
           top: 5,
           right: 30,
@@ -32,7 +34,12 @@ const GraphFive = () => {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Line type="monotone" dataKey="count_of_helpful_tags" stroke="#8884d8" activeDot={{ r: 8 }} />
+        <Line
+          type="monotone"
+          dataKey="count_of_helpful_tags"
+          stroke="#8884d8"
+          activeDot={{ r: 8 }}
+        />
       </LineChart>
     </ResponsiveContainer>
   );
