@@ -12,9 +12,12 @@ const NavBar = () => {
   return (
     <div>
       <Navbar className={styles.main} color="light" light expand="md">
-        <NavbarBrand className={styles.brandname} href="/">
-          <img className={styles.logo} src={logo} alt="logo" />
-        </NavbarBrand>
+        <Link className={styles.navLink} to="/">
+          <NavbarBrand className={styles.brandname}>
+            <img className={styles.logo} src={logo} alt="logo" />
+          </NavbarBrand>
+        </Link>
+
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
