@@ -549,402 +549,402 @@ export const graphFourData = [
 export const graphFiveData = [
   {
     count_of_helpful_tags: 99,
-    length_of_review: 98
+    length_of_review: 98,
   },
   {
     count_of_helpful_tags: 99,
-    length_of_review: 761
+    length_of_review: 761,
   },
   {
     count_of_helpful_tags: 97,
-    length_of_review: 808
+    length_of_review: 808,
   },
   {
     count_of_helpful_tags: 97,
-    length_of_review: 796
+    length_of_review: 796,
   },
   {
     count_of_helpful_tags: 97,
-    length_of_review: 770
+    length_of_review: 770,
   },
   {
     count_of_helpful_tags: 97,
-    length_of_review: 611
+    length_of_review: 611,
   },
   {
     count_of_helpful_tags: 97,
-    length_of_review: 970
+    length_of_review: 970,
   },
   {
     count_of_helpful_tags: 97,
-    length_of_review: 4363
+    length_of_review: 4363,
   },
   {
     count_of_helpful_tags: 97,
-    length_of_review: 1357
+    length_of_review: 1357,
   },
   {
     count_of_helpful_tags: 97,
-    length_of_review: 456
+    length_of_review: 456,
   },
   {
     count_of_helpful_tags: 97,
-    length_of_review: 4363
+    length_of_review: 4363,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 483
+    length_of_review: 483,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 1071
+    length_of_review: 1071,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 700
+    length_of_review: 700,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 207
+    length_of_review: 207,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 700
+    length_of_review: 700,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 1809
+    length_of_review: 1809,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 700
+    length_of_review: 700,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 1572
+    length_of_review: 1572,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 1308
+    length_of_review: 1308,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 1729
+    length_of_review: 1729,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 225
+    length_of_review: 225,
   },
   {
     count_of_helpful_tags: 96,
-    length_of_review: 977
+    length_of_review: 977,
   },
   {
     count_of_helpful_tags: 95,
-    length_of_review: 1091
+    length_of_review: 1091,
   },
   {
     count_of_helpful_tags: 95,
-    length_of_review: 603
+    length_of_review: 603,
   },
   {
     count_of_helpful_tags: 95,
-    length_of_review: 815
+    length_of_review: 815,
   },
   {
     count_of_helpful_tags: 95,
-    length_of_review: 144
+    length_of_review: 144,
   },
   {
     count_of_helpful_tags: 95,
-    length_of_review: 603
+    length_of_review: 603,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 5142
+    length_of_review: 5142,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 1085
+    length_of_review: 1085,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 144
+    length_of_review: 144,
   },
   {
     count_of_helpful_tags: 94,
-    length_of_review: 103
+    length_of_review: 103,
   },
   {
     count_of_helpful_tags: 93,
-    length_of_review: 486
+    length_of_review: 486,
   },
   {
     count_of_helpful_tags: 93,
-    length_of_review: 254
+    length_of_review: 254,
   },
   {
     count_of_helpful_tags: 93,
-    length_of_review: 981
+    length_of_review: 981,
   },
   {
     count_of_helpful_tags: 93,
-    length_of_review: 254
+    length_of_review: 254,
   },
   {
     count_of_helpful_tags: 93,
-    length_of_review: 254
+    length_of_review: 254,
   },
   {
     count_of_helpful_tags: 93,
-    length_of_review: 1713
+    length_of_review: 1713,
   },
   {
     count_of_helpful_tags: 93,
-    length_of_review: 486
+    length_of_review: 486,
   },
   {
     count_of_helpful_tags: 92,
-    length_of_review: 1233
+    length_of_review: 1233,
   },
   {
     count_of_helpful_tags: 92,
-    length_of_review: 1233
+    length_of_review: 1233,
   },
   {
     count_of_helpful_tags: 92,
-    length_of_review: 1373
+    length_of_review: 1373,
   },
   {
     count_of_helpful_tags: 92,
-    length_of_review: 1233
+    length_of_review: 1233,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 1915
+    length_of_review: 1915,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 3108
+    length_of_review: 3108,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 3108
+    length_of_review: 3108,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 3108
+    length_of_review: 3108,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 3108
+    length_of_review: 3108,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 1219
+    length_of_review: 1219,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 1219
+    length_of_review: 1219,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 1219
+    length_of_review: 1219,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 2011
+    length_of_review: 2011,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 1219
+    length_of_review: 1219,
   },
   {
     count_of_helpful_tags: 91,
-    length_of_review: 3108
+    length_of_review: 3108,
   },
   {
     count_of_helpful_tags: 90,
-    length_of_review: 1214
+    length_of_review: 1214,
   },
   {
     count_of_helpful_tags: 90,
-    length_of_review: 750
+    length_of_review: 750,
   },
   {
     count_of_helpful_tags: 90,
-    length_of_review: 1928
+    length_of_review: 1928,
   },
   {
     count_of_helpful_tags: 90,
-    length_of_review: 1443
+    length_of_review: 1443,
   },
   {
     count_of_helpful_tags: 90,
-    length_of_review: 3248
+    length_of_review: 3248,
   },
   {
     count_of_helpful_tags: 90,
-    length_of_review: 784
+    length_of_review: 784,
   },
   {
     count_of_helpful_tags: 90,
-    length_of_review: 3596
+    length_of_review: 3596,
   },
   {
     count_of_helpful_tags: 90,
-    length_of_review: 3248
+    length_of_review: 3248,
   },
   {
     count_of_helpful_tags: 90,
-    length_of_review: 3248
+    length_of_review: 3248,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 2395
+    length_of_review: 2395,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 252
+    length_of_review: 252,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 99
+    length_of_review: 99,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 1253
+    length_of_review: 1253,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 373
+    length_of_review: 373,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 140
+    length_of_review: 140,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 187
+    length_of_review: 187,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 297
+    length_of_review: 297,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 234
+    length_of_review: 234,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 1195
+    length_of_review: 1195,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 731
+    length_of_review: 731,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 557
+    length_of_review: 557,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 106
+    length_of_review: 106,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 403
+    length_of_review: 403,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 324
+    length_of_review: 324,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 549
+    length_of_review: 549,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 258
+    length_of_review: 258,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 1069
+    length_of_review: 1069,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 258
+    length_of_review: 258,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 501
+    length_of_review: 501,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 142
+    length_of_review: 142,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 453
+    length_of_review: 453,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 670
+    length_of_review: 670,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 566
+    length_of_review: 566,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 746
+    length_of_review: 746,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 545
+    length_of_review: 545,
   },
   {
     count_of_helpful_tags: 9,
-    length_of_review: 467
-  }
+    length_of_review: 467,
+  },
 ];

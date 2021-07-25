@@ -1,0 +1,36 @@
+.title {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+
+  li {
+    cursor: pointer;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+
+.graphContainer {
+  display: flex;
+  background-color: rgb(233, 233, 233);
+  padding: 3rem;
+  width: 65% !important;
+  margin-left: 1rem;
+}
+
+.usecaseContainer {
+  display: flex;
+  align-items: center;
+}
