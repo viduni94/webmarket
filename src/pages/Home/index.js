@@ -20,6 +20,7 @@ const Home = () => {
           </a>
           {messages.mainPage.moreInfo}
         </p>
+        <a href="/product-recommendations">Product Recommendations</a>
       </div>
     </>
   );
