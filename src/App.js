@@ -9,9 +9,9 @@ function App() {
   return (
     <Suspense fallback={<PageLoader />}>
       <Switch>
-        <Route exact path={constants.paths.home} component={Home} />
-        <Route exact path="/product-recommendations" component={ProductRecommendations} />
-        <Route exact path="/trend-analysis" component={Home} />
+        <Route path="/product-recommendations" component={ProductRecommendations} />
+        <Route path="/trend-analysis" component={Home} />
+        <Route path={constants.paths.home} component={Home} />
       </Switch>
     </Suspense>
   );
