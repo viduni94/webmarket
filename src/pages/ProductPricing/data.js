@@ -1,4 +1,15 @@
 /* eslint-disable import/prefer-default-export */
+export const useCases = [
+  {
+    id: 1,
+    name: 'Product count for categories',
+  },
+  {
+    id: 2,
+    name: 'Price range for categories',
+  },
+];
+
 export const graphOneData = [
   {
     niche: 'Clothing, Shoes & Jewelry',
@@ -103,5 +114,58 @@ export const graphOneData = [
   {
     niche: 'Tax Preparation',
     product_count: 13,
+  },
+];
+
+export const graphTwoData = [
+  {
+    niche: 'Clothing, Shoes & Jewelry',
+    price_min: '4.99',
+    price_max: '219.16',
+  },
+  {
+    niche: 'Industrial & Scientific',
+    price_min: '3.39',
+    price_max: '97.35',
+  },
+  {
+    niche: 'Grocery & Gourmet Food',
+    price_min: '1',
+    price_max: '262.96',
+  },
+  {
+    niche: 'Health & Household',
+    price_min: '5.72',
+    price_max: '224.99',
+  },
+  {
+    niche: 'Tools & Home Improvement',
+    price_min: '2.5',
+    price_max: '409.99',
+  },
+  {
+    niche: 'Office Products',
+    price_min: '0.99',
+    price_max: '469.92',
+  },
+  {
+    niche: 'Sports & Outdoors',
+    price_min: '4.9',
+    price_max: '499.99',
+  },
+  {
+    niche: 'Musical Instruments',
+    price_min: '0.99',
+    price_max: '868.58',
+  },
+  {
+    niche: 'Home & Kitchen',
+    price_min: '4.49',
+    price_max: '245.99',
+  },
+  {
+    niche: 'Kitchen & Dining',
+    price_min: '1',
+    price_max: '119.99',
   },
 ];
