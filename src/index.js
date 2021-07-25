@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/styles/index.scss';
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Route path={constants.paths.home} component={App} />
   </Router>,
   document.querySelector('#root'),
